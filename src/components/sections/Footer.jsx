@@ -62,6 +62,10 @@ const NavLink = styled.a`
 const SocialMediaIcons = styled.div`
     display: flex;
     margin-top: 1rem;
+
+    @media (max-width: 385px){
+        margin-bottom: 25px;
+    }
 `;
 
 const SocialMediaIcon = styled.a`

@@ -89,6 +89,10 @@ const Title = styled.div`
         line-height: 48px;
         margin-bottom: 8px;
     }
+
+    @media(max-width: 385px){
+        font-size: 37px;
+    }
 `;
 
 const TextLoop = styled.div`
@@ -109,6 +113,14 @@ const TextLoop = styled.div`
         font-size: 22px;
         line-height: 48px;
         margin-bottom: 16px;
+    }
+
+    @media (max-width: 450px){
+        font-size: 19px;
+    }
+
+    @media (max-width: 385px){
+        font-size: 16px;
     }
 `;
 
