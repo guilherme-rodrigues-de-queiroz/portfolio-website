@@ -157,22 +157,22 @@ const Navbar = () => {
                 {isOpen && (
                     <MobileMenu isOpen={isOpen}>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-                            About
+                            Sobre
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
                             Skills
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-                            Experience
+                            Experiência
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-                            Projects
+                            Projetos
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-                            Education
+                            Formação
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
-                            Contact
+                            Contato
                         </NavLink>
                         <GithubButton href={Bio.github} target="_blank" rel="noopener noreferrer" style={{
                             background: theme.primary,
